@@ -1,0 +1,13 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'diocese/style.css' %}" />
+
+{% if archdiocese_list %}
+    <ul>
+    {% for archdiocese in archdiocese_list %}
+        <li>{{ archdiocese }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No archdiocese info is available.</p>
+{% endif %}

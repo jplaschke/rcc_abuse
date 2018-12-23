@@ -1,0 +1,33 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Catholic Child Sexual Abuse (CCSA) Analytics</h1>
+  <p>Welcome to CCSA Analytics. This website provides data analytics on the Catholic priest child sexual abuse epidemic</p>
+  <h2>Overview Statistics</h2>
+  <p>Archdiocese counts for priests accused of child sexual abuse:</p>
+  {% if archdiocese_list %}
+	<div class="table">
+		<div class="table-header">
+			<div class="header__item"><a id="archdiocese_name" class="filter__link" href="#">Archdiocese Name</a></div>
+			<div class="header__item"><a id="states" class="filter__link filter__link--number" href="#">States</a></div>
+			<div class="header__item"><a id="total_count" class="filter__link filter__link--number" href="#">Total Count</a></div>
+			<div class="header__item"><a id="archdiocese_count" class="filter__link filter__link--number" href="#">Archdiocese Count</a></div>
+			<div class="header__item"><a id="diocese_count" class="filter__link filter__link--number" href="#">Diocese Count</a></div>
+		</div>
+		<div class="table-content">	
+      
+    {% for archdiocese in archdiocese_list %}
+			<div class="table-row">		
+				<div class="table-data">{{ archdiocese }}</div>
+                <div class="table-data">{{ archdiocese.state }}</div>
+                <div class="table-data">{{ archdiocese.total_priests }}</div>
+                <div class="table-data">{{ archdiocese.total_arch_priests }}</div>
+                <div class="table-data">{{ archdiocese.total_diocese_priests }}</div>
+             </div>
+    {% endfor %}
+        </div>
+    </div>
+{% else %}
+    <p>No archdiocese info is available.</p>
+{% endif %}
+{% endblock %}
