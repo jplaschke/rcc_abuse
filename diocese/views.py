@@ -25,3 +25,11 @@ class PriestList(ListView):
     queryset = Priest.objects.all()
     context_object_name = 'priest_list'
   
+  
+  
+class PriestDetailView(DetailView):
+    model = Priest
+
+    def get_object(self):
+        """Returns the Diocese instance that the view displays"""
+        return get_object_or_404(Diocese, pk=self.kwargs.get("pk"))

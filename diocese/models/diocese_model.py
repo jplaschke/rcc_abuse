@@ -18,6 +18,10 @@ class Diocese(models.Model):
     def total_priests(self):
         return Priest.objects.filter(diocese__pk=self.pk).count()
 
+    def priest_list(self):
+        priest_list = list(Priest.objects.filter(diocese__pk=self.pk))
+        return priest_list
+
     def __str__(self):
         return self.name
 

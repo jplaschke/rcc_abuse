@@ -15,8 +15,8 @@
 		<div class="table-content">	
       
     {% for diocese in archdiocese.diocese_list %}
-			<div class="table-row">		
-				<div class="table-data">{{ diocese }}</div>
+			<div class="table-row">	
+				<div class="table-data"><a href="/priestlist/{{ diocese.id }}/">{{ diocese }}</a></div>
                 <div class="table-data">{{ diocese.city }}</div>
                 <div class="table-data">{{ diocese.state }}</div>
                 <div class="table-data">{{ diocese.total_priests }}</div>

@@ -5,6 +5,7 @@
   <p>Welcome to CCSA Analytics. This website provides data analytics on the Catholic priest child sexual abuse epidemic</p>
   <h2>Overview Statistics</h2>
   <p>Archdiocese counts for priests accused of child sexual abuse:</p>
+  <p>Click on an Archdiocese to see diocese list</p>
   {% if archdiocese_list %}
 	<div class="table">
 		<div class="table-header">
@@ -18,7 +19,7 @@
       
     {% for archdiocese in archdiocese_list %}
 			<div class="table-row">		
-				<div class="table-data"><a href="/dioceselist/{{ archdiocese.id }}/"">{{ archdiocese }}</a></div>
+				<div class="table-data"><a href="/dioceselist/{{ archdiocese.id }}/">{{ archdiocese }}</a></div>
                 <div class="table-data">{{ archdiocese.state }}</div>
                 <div class="table-data">{{ archdiocese.total_priests }}</div>
                 <div class="table-data">{{ archdiocese.total_arch_priests }}</div>
