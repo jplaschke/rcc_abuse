@@ -20,6 +20,5 @@ PROJECT_DIR=os.path.dirname(__file__)
 
 urlpatterns = [
     path('', include('diocese.urls')),
-    path('diocese/', include('diocese.urls')),
     path('admin/', admin.site.urls),
 ]
