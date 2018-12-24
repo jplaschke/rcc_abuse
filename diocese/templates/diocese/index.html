@@ -22,7 +22,7 @@
 				<div class="table-data"><a href="/dioceselist/{{ archdiocese.id }}/">{{ archdiocese }}</a></div>
                 <div class="table-data">{{ archdiocese.state }}</div>
                 <div class="table-data">{{ archdiocese.total_priests }}</div>
-                <div class="table-data">{{ archdiocese.total_arch_priests }}</div>
+                <div class="table-data"><a href="/archpriestlist/{{ archdiocese.id }}/">{{ archdiocese.total_arch_priests }}</a></div>
                 <div class="table-data">{{ archdiocese.total_diocese_priests }}</div>
              </div>
     {% endfor %}

@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.views.generic import DetailView, ListView
+from django.views.generic import DetailView, ListView, TemplateView
 
 from diocese.models.diocese_model import Archdiocese
 from diocese.models.diocese_model import Diocese
@@ -27,9 +27,18 @@ class PriestList(ListView):
   
   
   
-class PriestDetailView(DetailView):
+class DioPriestListView(DetailView):
     model = Priest
 
     def get_object(self):
         """Returns the Diocese instance that the view displays"""
         return get_object_or_404(Diocese, pk=self.kwargs.get("pk"))
+
+  
+class ArchPriestListView(DetailView):
+    model = Priest
+    template_name = "diocese/archdiocese_priest_list.html"
+
+    def get_object(self):
+        """Returns the Archdiocese instance that the view displays"""
+        return get_object_or_404(Archdiocese, pk=self.kwargs.get("pk"))

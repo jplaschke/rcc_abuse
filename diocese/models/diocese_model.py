@@ -61,6 +61,10 @@ class Archdiocese(models.Model):
         diocese_list = list(Diocese.objects.filter(archdiocese__pk=self.pk))
         return diocese_list
 
+    def priest_list(self):
+        priest_list = list(Priest.objects.filter(archdiocese__pk=self.pk))
+        return priest_list
+
     def __str__(self):
         return self.name
 
