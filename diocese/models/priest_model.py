@@ -1,9 +1,12 @@
 from django.db import models
 from django.utils.dateparse import parse_date
+import django_tables2 as tables
+
 
 # Priest models
 
 class Priest(models.Model):
+ 
     first_name = models.CharField(max_length=30)
     middle_name = models.CharField(max_length=30,blank=True,null=True)
     last_name = models.CharField(max_length=30)
@@ -75,3 +78,10 @@ class Deacon(models.Model):
     def __str__(self):
         return self.first_name+" "+self.middle_name+" "+self.last_name
 
+
+class PriestTable(tables.Table):  
+    class Meta:
+        model = Priest
+        template_name = 'django_tables2/bootstrap.html'
+        sequence = ('last_name','first_name','middle_name',)
+        exclude = ('id','year_born','order_name','order_priest','offender',)

@@ -1,0 +1,37 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Catholic Child Sexual Abuse (CCSA) Analytics</h1>
+  <h3>Diocese Statistics for Archdiocese of {{ archdiocese.name }}</h3>
+  <p>Diocese counts for priests accused of child sexual abuse:</p>
+  {% if archdiocese %}
+	
+    {% for diocese in archdiocese.diocese_list %}
+		<h5><b>{{ diocese.name }}</b></h5>
+		<p>Priest count: {{ diocese.total_priests }}
+		<div class="table">
+			<div class="table-header">
+				<div class="header__item"><a id="last_name" class="filter__link" href="#">Last Name</a></div>
+				<div class="header__item"><a id="first_name" class="filter__link filter__link--number" href="#">First Name</a></div>
+				<div class="header__item"><a id="middle_name" class="filter__link filter__link--number" href="#">Middle Name</a></div>
+				<div class="header__item"><a id="year_ordained" class="filter__link filter__link--number" href="#">Ordained</a></div>
+			</div>
+			<div class="table-content">	
+		  
+		{% for priest in diocese.priest_list %}
+				<div class="table-row">	
+					<div class="table-data">{{ priest.last_name }}</a></div>
+					<div class="table-data">{{ priest.first_name }}</div>
+					<div class="table-data">{{ priest.middle_name }}</div>
+					<div class="table-data">{{ priest.year_ordained }}</div>
+				 </div>
+		{% endfor %}
+		</br>
+	{% endfor %}
+
+        </div>
+    </div>
+{% else %}
+    <p>No archdiocese info is available.</p>
+{% endif %}
+{% endblock %}

@@ -1,34 +1,10 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
+{% load render_table from django_tables2 %}
   <h1>Catholic Child Sexual Abuse (CCSA) Analytics</h1>
   <h3>List of priests accused of child sexual abuse</h3>
-  {% if priest_list %}
-	<p>Number of priests: {{ priest_list.count }}</p>
-	<div class="table">
-		<div class="table-header">
-			<div class="header__item"><a id="last_name" class="filter__link" href="#">Last Name</a></div>
-			<div class="header__item"><a id="first_name" class="filter__link filter__link--number" href="#">First Name</a></div>
-			<div class="header__item"><a id="middle_name" class="filter__link filter__link--number" href="#">Middle Name</a></div>
-			<div class="header__item"><a id="year_ordained" class="filter__link filter__link--number" href="#">Ordained</a></div>
-			<div class="header__item"><a id="assigned_archdiocese" class="filter__link filter__link--number" href="#">Archdiocese</a></div>
-			<div class="header__item"><a id="assigned_diocese" class="filter__link filter__link--number" href="#">Diocese</a></div>
-		</div>
-		<div class="table-content">	
-      
-			{% for priest in priest_list %}
-				<div class="table-row">		
-					<div class="table-data">{{ priest.last_name }}</div>
-					<div class="table-data">{{ priest.first_name }}</div>
-					<div class="table-data">{{ priest.middle_name }}</div>
-					<div class="table-data">{{ priest.year_ordained }}</div>
-					<div class="table-data">{{ priest.archdiocese.name }}</div>
-					<div class="table-data">{{ priest.diocese.name }}</div>
-				</div>
-			{% endfor %}
-		</div>
-	</div>
-{% else %}
-    <p>No priest info is available.</p>
-{% endif %}
+   {% render_table table %}
+  
+
 {% endblock %}

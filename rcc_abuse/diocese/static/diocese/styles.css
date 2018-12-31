@@ -58,6 +58,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .header__item {
+	color: white;
 	text-transform:uppercase;
 }
 
@@ -98,3 +99,8 @@ li {
     list-style: none;
 }
 
+/* Sortable tables */
+table.sortable {
+	width:100%;
+	border:1px solid $color-form-highlight;
+}

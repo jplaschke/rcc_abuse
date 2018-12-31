@@ -2,9 +2,9 @@
 
 {% block content %}
   <h1>Catholic Child Sexual Abuse (CCSA) Analytics</h1>
-  <h3>Priest list for Archdiocese of {{ archdiocese.name }}</h3>
+  <h3>Accused priest list for Archdiocese of {{ archdiocese.name }}</h3>
   {% if archdiocese %}
-	<p>Priest count: {{ archdiocese.total_priests }}
+	<p>Priest count: {{ archdiocese.total_arch_priests }}
 	<div class="table">
 		<div class="table-header">
 			<div class="header__item"><a id="last_name" class="filter__link" href="#">Last Name</a></div>

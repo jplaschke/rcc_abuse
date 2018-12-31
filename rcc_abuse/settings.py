@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'django_tables2',
     'diocese.apps.DioceseConfig',
     'django.contrib.admin',
     'django.contrib.auth',
