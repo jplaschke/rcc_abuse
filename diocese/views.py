@@ -6,6 +6,9 @@ from django_tables2 import RequestConfig
 from diocese.models.diocese_model import Archdiocese
 from diocese.models.diocese_model import Diocese
 from diocese.models.priest_model import Priest, PriestTable
+import string
+
+
 
 def index(request):
     archdiocese_list = Archdiocese.objects.all()
@@ -14,11 +17,21 @@ def index(request):
     }
     return render(request, 'diocese/index.html', context)
 
+def alpha_priestlist(request):
+    alphabet = string.ascii_uppercase
+    context = {'alphabet': alphabet}
+    return render(request, 'diocese/alphapriest_list.html', context)
 
 def priest(request):
     table = PriestTable(Priest.objects.all())
     RequestConfig(request).configure(table)
     return render(request, 'diocese/priest_list.html', {'table': table})
+
+def priestlist_view(request, letter=None):
+    table = PriestTable(Priest.objects.all().filter(last_name__startswith=letter))
+    RequestConfig(request).configure(table)
+    return render(request, 'diocese/priest_list.html', {'table': table})
+
 
 class DioceseDetailView(DetailView):
     model = Archdiocese
