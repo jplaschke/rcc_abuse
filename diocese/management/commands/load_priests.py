@@ -78,6 +78,7 @@ class Command(BaseCommand):
 		count = 0
 		for line in in_file:
 			parsed_line = line.split("|")
+			add_priest = False
 			if parsed_line[5] == "Diocesan":
 				first = parsed_line[1]
 				last = parsed_line[0]
@@ -103,8 +104,12 @@ class Command(BaseCommand):
 				if dio_name == "Springfield":
 					if parsed_dio[1] == "MO":
 						dio_name = "Springfield-Cape Girardeau"
-					else:
+					elif parsed_dio[1] == "IL":
 						dio_name = "Springfield in Illinois"
+					else:
+						add_priest = True
+						dio_name = "Springfield in Massachusetts"
+				
 				if dio_name == "Lafayette":
 					if parsed_dio[1] == "IN":
 						dio_name = "Lafayette in Indiana"
@@ -136,7 +141,7 @@ class Command(BaseCommand):
 					priest = Priest (first_name = first, middle_name = middle, last_name = last, \
 									year_ordained = year_ordained, notes = notes, \
 									archdiocese = arch_obj)
-				if insert_arch or insert_dio:
+				if insert_arch or insert_dio and add_priest:
 					count += 1
 					priest.save()
 				else:
