@@ -1,0 +1,39 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+{% load render_table from django_tables2 %}
+  <h1>Catholic Child Sexual Abuse (CCSA) Analytics</h1>
+  <h2>Religious Order Statistics</h2>
+  
+  {% if order_list %}
+    <p>Religious Order counts for priests accused of child sexual abuse:<br>
+	</p>
+    <p>All columns are sortable</p>
+ 	<table id="order" class="sortable" style="width: 100%">
+		<tr class="table-header">
+			<th class="header__item filter__link">Order Name</th>
+			<th class="header__item filter__link">Order Abbreviation</th>
+			<th class="header__item filter__link">Order Family</th>
+			<th class="header__item filter__link">Founder</th>
+			<th class="header__item filter__link">Year Established</th>
+			<th class="header__item filter__link">Total Count</th>
+		</tr>
+      
+    {% for order in order_list %}
+			<tr class="table-row">		
+				<td class="table-data">{{ order.order_name }}</a></td>
+                <td class="table-data">{{ order.order_abbreviation }}</td>
+                <td class="table-data">{{ order.order_family }}</td>
+                <td class="table-data">{{ order.order_founder }}</td>
+                <td class="table-data">{{ order.order_founding_year }}</td>
+                <td class="table-data">{{ order.total_priests }}</td>
+				<td class="table-data"><a href="/orderpriestlist/{{ order.id }}/">{{ order.total_priests }}</a></td>
+             </tr>
+    {% endfor %}
+        
+    </table>
+{% else %}
+    <p>No order info is available.</p>
+{% endif %}
+{% endblock %}
