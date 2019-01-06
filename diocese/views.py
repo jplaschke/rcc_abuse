@@ -6,6 +6,7 @@ from django_tables2 import RequestConfig
 from diocese.models.diocese_model import Archdiocese
 from diocese.models.diocese_model import Diocese
 from diocese.models.priest_model import Priest, PriestTable, OrderPriestTable
+from diocese.models.order_model import Order
 import string
 
 
@@ -21,6 +22,17 @@ def index(request):
         'total_order_priests': total_order_priests,
     }
     return render(request, 'diocese/index.html', context)
+
+
+def order(request):
+    order_list = sorted([ i for i in Order.objects.all() if i.total_priests() > 0], key=lambda x: x.total_priests(),reverse=True)
+    #total_dio_priests = Priest.objects.filter(order_priest=False).count()
+    #total_order_priests = Priest.objects.filter(order_priest=True).count()
+    context = {
+        'order_list': order_list,
+        #'total_priests': total_dio_priests+total_order_priests,
+    }
+    return render(request, 'diocese/orderview.html', context)
 
 
 def alpha_orderpriestlist(request):
@@ -91,3 +103,12 @@ class ArchPriestListView(DetailView):
     def get_object(self):
         """Returns the Archdiocese instance that the view displays"""
         return get_object_or_404(Archdiocese, pk=self.kwargs.get("pk"))
+
+  
+class OrderPriestListView(DetailView):
+    model = Priest
+    template_name = "diocese/order_priest_list.html"
+
+    def get_object(self):
+        """Returns the Archdiocese instance that the view displays"""
+        return get_object_or_404(Order, pk=self.kwargs.get("pk"))
