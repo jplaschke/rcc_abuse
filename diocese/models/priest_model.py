@@ -13,7 +13,6 @@ class Priest(models.Model):
     year_born = models.CharField(max_length=4,blank=True,null=True)
     # year ordained or year of first assigment
     # create order enum
-    order_name = models.CharField(max_length=10)
     order_priest = models.BooleanField(default=False)
     offender = models.BooleanField(default=True)
     year_ordained = models.CharField(max_length=16,blank=True,null=True)
@@ -85,6 +84,14 @@ class Deacon(models.Model):
 
 
 class PriestTable(tables.Table):  
+    class Meta:
+        model = Priest
+        template_name = 'django_tables2/bootstrap.html'
+        sequence = ('last_name','first_name','middle_name',)
+        exclude = ('id','year_born','order_name','order_priest','offender','order')
+
+
+class OrderPriestTable(tables.Table):  
     class Meta:
         model = Priest
         template_name = 'django_tables2/bootstrap.html'

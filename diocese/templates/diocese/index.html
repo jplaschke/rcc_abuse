@@ -6,12 +6,13 @@
   <h1>Catholic Child Sexual Abuse (CCSA) Analytics</h1>
   <p>Welcome to CCSA Analytics. This website provides data analytics on the Catholic priest child sexual abuse epidemic</p>
   <h2>Overview Statistics</h2>
-  <p>Archdiocese counts for priests accused of child sexual abuse:</p>
- 
-  <p>All columns are sortable</p>
   
   {% if archdiocese_list %}
-	<table id="diocese" class="sortable" style="width: 100%">
+    <p>Archdiocese counts for priests accused of child sexual abuse:<br>
+	<b>Total priests:</b> {{ total_priests }} <b>Diocesan Priests:</b> {{ total_dio_priests }} <b>Religious Order Priests:</b> {{ total_order_priests }}
+	</p>
+    <p>All columns are sortable</p>
+ 	<table id="diocese" class="sortable" style="width: 100%">
 		<tr class="table-header">
 			<th class="header__item filter__link">Archdiocese Name</th>
 			<th class="header__item filter__link">States</th>

@@ -4,17 +4,22 @@ from django.utils.dateparse import parse_date
 # Church models
 class Church(models.Model):
     name = models.CharField(max_length=200)
-    address = models.CharField(max_length=200)
-    zipcode = models.CharField(max_length=200)
+    address = models.CharField(max_length=200,blank=True,null=True)
+    zipcode = models.CharField(max_length=200,blank=True,null=True)
     lat = models.CharField(max_length=200,blank=True,null=True)
     lon = models.CharField(max_length=200,blank=True,null=True)
     city = models.CharField(max_length=200)
+    county = models.CharField(max_length=200,blank=True,null=True)
     state = models.CharField(max_length=200)
     diocese = models.ForeignKey(
         'Diocese',
         on_delete=models.CASCADE,
     )
     establish_date = models.DateField('date established')
+
+    class Meta:
+        unique_together = ('name', 'city',)
+
     def __str__(self):
         return self.name
 
@@ -32,6 +37,10 @@ class ArchdioceseChurch(models.Model):
         on_delete=models.CASCADE,
     )
     establish_date = models.DateField('date established')
+
+    class Meta:
+        unique_together = ('name', 'city',)
+		
     def __str__(self):
         return self.name
 

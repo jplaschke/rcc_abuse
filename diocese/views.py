@@ -5,17 +5,29 @@ from django_tables2 import RequestConfig
 
 from diocese.models.diocese_model import Archdiocese
 from diocese.models.diocese_model import Diocese
-from diocese.models.priest_model import Priest, PriestTable
+from diocese.models.priest_model import Priest, PriestTable, OrderPriestTable
 import string
 
 
 
 def index(request):
     archdiocese_list = Archdiocese.objects.all()
+    total_dio_priests = Priest.objects.filter(order_priest=False).count()
+    total_order_priests = Priest.objects.filter(order_priest=True).count()
     context = {
         'archdiocese_list': archdiocese_list,
+        'total_priests': total_dio_priests+total_order_priests,
+        'total_dio_priests': total_dio_priests,
+        'total_order_priests': total_order_priests,
     }
     return render(request, 'diocese/index.html', context)
+
+
+def alpha_orderpriestlist(request):
+    alphabet = string.ascii_uppercase
+    context = {'alphabet': alphabet}
+    return render(request, 'diocese/orderalphapriest_list.html', context)
+
 
 def alpha_priestlist(request):
     alphabet = string.ascii_uppercase
@@ -27,8 +39,15 @@ def priest(request):
     RequestConfig(request).configure(table)
     return render(request, 'diocese/priest_list.html', {'table': table})
 
+
+def orderpriestlist_view(request, letter=None):
+    table = OrderPriestTable(Priest.objects.all().filter(order_priest=True, last_name__startswith=letter))
+    RequestConfig(request).configure(table)
+    return render(request, 'diocese/orderpriest_list.html', {'table': table})
+
+
 def priestlist_view(request, letter=None):
-    table = PriestTable(Priest.objects.all().filter(last_name__startswith=letter))
+    table = PriestTable(Priest.objects.all().filter(order_priest=False, last_name__startswith=letter))
     RequestConfig(request).configure(table)
     return render(request, 'diocese/priest_list.html', {'table': table})
 
