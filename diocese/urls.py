@@ -11,9 +11,10 @@ urlpatterns = [
     path('orderalphapriestlist/', views.alpha_orderpriestlist, name="alpha_orderpriestlist"),
     path('alphapriestlist/', views.alpha_priestlist, name="alpha_priestlist"),
     path('alldiocesepriestlist/<int:pk>/', views.ArchDioPriestListView.as_view(), name='dioceselist'),
+    path('dioceselist/<int:pk>/', views.DioceseDetailView.as_view(), name='dioceselist'),
+    path('nunlist/', views.nun, name='nunlist'),
     path('orderlist/', views.order, name='orderlist'),
     path('priestlist/', views.priest, name='priestlist'),
-    path('dioceselist/<int:pk>/', views.DioceseDetailView.as_view(), name='dioceselist'),
     path('', views.index, name='index'),
  
 ]

@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6 {
 	min-height:100vh;
 }
 
-.table {
+#diocese {
 	width:100%;
 	border:1px solid $color-form-highlight;
 }
@@ -103,4 +103,9 @@ li {
 table.sortable {
 	width:100%;
 	border:1px solid $color-form-highlight;
+}
+
+.pagination {
+  text-align: center;
+  padding: 5px;
 }

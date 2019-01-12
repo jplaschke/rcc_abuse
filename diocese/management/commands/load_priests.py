@@ -79,11 +79,12 @@ class Command(BaseCommand):
 		for line in in_file:
 			parsed_line = line.split("|")
 			add_priest = False
-			if parsed_line[5] == "Diocesan":
+			if parsed_line[5] == "":
 				first = parsed_line[1]
 				last = parsed_line[0]
 				first_parsed = first.split(" ")
 				first = first_parsed[0]
+				clergy_type = parsed_line[3]
 				try:
 					middle = first_parsed[1]
 					middle = middle.replace(".","")
@@ -99,6 +100,8 @@ class Command(BaseCommand):
 					dio_name = "Washington DC"
 				if dio_name == "Kansas City":
 					dio_name = "Kansas City in Kansas"
+				if dio_name == "Portland":
+					dio_name = "Portland in Oregon"
 				if dio_name == "St. Paul-Minneapolis":
 					dio_name = "St. Paul and Minneapolis"
 				if dio_name == "Springfield":
@@ -107,7 +110,6 @@ class Command(BaseCommand):
 					elif parsed_dio[1] == "IL":
 						dio_name = "Springfield in Illinois"
 					else:
-						add_priest = True
 						dio_name = "Springfield in Massachusetts"
 				
 				if dio_name == "Lafayette":
@@ -133,18 +135,21 @@ class Command(BaseCommand):
 					if "Wheeling" in dio_name:
 						print ("Excecption "+repr(e))
 					pass
-				if insert_dio:
+				count = 0
+				if insert_dio and count == 0:
+					priest = Priest (first_name = first, middle_name = middle, last_name = last, \
+								year_ordained = year_ordained, notes = notes, \
+								diocese = dio_obj, clergy_type = clergy_type)
+									
+				if insert_arch and count == 0:
 					priest = Priest (first_name = first, middle_name = middle, last_name = last, \
 									year_ordained = year_ordained, notes = notes, \
-									diocese = dio_obj)
-				if insert_arch:
-					priest = Priest (first_name = first, middle_name = middle, last_name = last, \
-									year_ordained = year_ordained, notes = notes, \
-									archdiocese = arch_obj)
-				if insert_arch or insert_dio and add_priest:
+									archdiocese = arch_obj, clergy_type = clergy_type)
+				if priest and False:
+					print ("Save "+priest+" "+priest.clergy_type)
 					count += 1
 					priest.save()
 				else:
-					print ("ERROR dio_name "+repr(dio_name))
+					print ("Save "+repr(priest)+" "+repr(priest.clergy_type))
 				
 		print ("Inserted = "+repr(count))

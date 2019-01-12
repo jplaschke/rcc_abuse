@@ -35,6 +35,7 @@ def order(request):
     return render(request, 'diocese/orderview.html', context)
 
 
+
 def alpha_orderpriestlist(request):
     alphabet = string.ascii_uppercase
     context = {'alphabet': alphabet}
@@ -50,6 +51,13 @@ def priest(request):
     table = PriestTable(Priest.objects.all())
     RequestConfig(request).configure(table)
     return render(request, 'diocese/priest_list.html', {'table': table})
+
+
+def nun(request):
+    table = PriestTable(Priest.objects.all().filter(clergy_type="N"))
+    RequestConfig(request).configure(table)
+    return render(request, 'diocese/nun_list.html', {'table': table})
+
 
 
 def orderpriestlist_view(request, letter=None):
@@ -76,7 +84,7 @@ class PriestList(SingleTableView):
     context_object_name = 'priest_table'
     table_class = PriestTable
     def get_table_kwargs(self):
-        return ( {'exclude': ('id','year_born','order_name','order_priest','offender',)}
+        return ( {'exclude': ('id','year_born','order_name','order_priest','offender','clergy_type',)}
         )
   
   

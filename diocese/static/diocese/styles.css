@@ -104,3 +104,8 @@ table.sortable {
 	width:100%;
 	border:1px solid $color-form-highlight;
 }
+
+.pagination {
+  text-align: center;
+  padding: 5px;
+}

@@ -16,7 +16,25 @@ class Priest(models.Model):
     order_priest = models.BooleanField(default=False)
     offender = models.BooleanField(default=True)
     year_ordained = models.CharField(max_length=16,blank=True,null=True)
-    notes = models.CharField(max_length=1000)
+    notes = models.CharField(max_length=5000)
+
+    PRIEST = 'P'
+    NUN = 'N'
+    BROTHER = 'B'
+    DEACON = 'D'
+    SEMINARIAN = 'S'
+    CLERGY_TYPE_CHOICES = (
+        (PRIEST, 'Priest'),
+        (NUN, 'Nun'),
+        (BROTHER, 'Brother'),
+        (SEMINARIAN, 'Seminarian'),
+        (DEACON, 'Deacon'),
+    )
+    clergy_type = models.CharField(
+        max_length=1,
+        choices=CLERGY_TYPE_CHOICES,
+        default=PRIEST,
+    )
     diocese = models.ForeignKey(
         'Diocese',
         blank=True,null=True,
@@ -88,7 +106,7 @@ class PriestTable(tables.Table):
         model = Priest
         template_name = 'django_tables2/bootstrap.html'
         sequence = ('last_name','first_name','middle_name',)
-        exclude = ('id','year_born','order_name','order_priest','offender','order')
+        exclude = ('id','year_born','order_name','order_priest','offender','order','clergy_type')
 
 
 class OrderPriestTable(tables.Table):  
