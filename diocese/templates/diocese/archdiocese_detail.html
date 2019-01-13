@@ -5,32 +5,37 @@
   <h3>Diocese Statistics for Archdiocese of {{ archdiocese.name }}</h3>
   <p>Diocese counts for priests accused of child sexual abuse:</p>
   {% if archdiocese %}
-	<div class="table">
-		<div class="table-header">
-			<div class="header__item"><a id="diocese_name" class="filter__link" href="#">Diocese Name</a></div>
-			<div class="header__item"><a id="city" class="filter__link filter__link--number" href="#">City</a></div>
-			<div class="header__item"><a id="state" class="filter__link filter__link--number" href="#">State</a></div>
-			<div class="header__item"><a id="diocese_count" class="filter__link filter__link--number" href="#">Diocese Count</a></div>
-		</div>
-		<div class="table-content">	
-      
+	<table id="diocese" class="sortable" style="width: 100%">
+		<tr class="table-header">
+			<th class="header__item filter__link">Diocese Name</th>
+			<th class="header__item filter__link">City</th>
+			<th class="header__item filter__link">State</th>
+			<th class="header__item filter__link">Count</th>
+		</tr>	
     {% for diocese in archdiocese.diocese_list %}
-			<div class="table-row">	
-				<div class="table-data"><a href="/priestlist/{{ diocese.id }}/">{{ diocese }}</a></div>
-                <div class="table-data">{{ diocese.city }}</div>
-                <div class="table-data">{{ diocese.state }}</div>
-                <div class="table-data">{{ diocese.total_priests }}</div>
-             </div>
+			<tr class="table-row">		
+				<td class="table-data"><a href="/priestlist/{{diocese.id}}/">{{ diocese }}</a></td>
+                <td class="table-data">{{ diocese.city }}</td>
+                <td class="table-data">{{ diocese.state }}</td>
+                <td class="table-data">{{ diocese.total_priests }}</td>
+             </tr>
     {% endfor %}
-				<div class="table-row">		
-				<div class="table-data"></div>
-                <div class="table-data"></div>
-                <div class="table-data"><b>Total</b></div>
-                <div class="table-data">{{ archdiocese.total_diocese_priests }}</div>
-             </div>
+	    </table>
+		<table>
+		<tr class="table-header">
+			<th class="header__item filter__link"></th>
+			<th class="header__item filter__link"></th>
+			<th class="header__item filter__link"></th>
+			<th class="header__item filter__link"></th>
+		</tr>
+			<tr class="table-row">		
+				<td class="table-data"></td>
+                <td class="table-data"></td>
+                <td class="table-data"><b>Total</b></td>
+                <td class="table-data">{{ archdiocese.total_diocese_priests }}</td>
+             </tr>
    
-        </div>
-    </div>
+		</table>
 {% else %}
     <p>No archdiocese info is available.</p>
 {% endif %}

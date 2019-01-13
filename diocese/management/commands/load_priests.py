@@ -101,7 +101,10 @@ class Command(BaseCommand):
 				if dio_name == "Kansas City":
 					dio_name = "Kansas City in Kansas"
 				if dio_name == "Portland":
-					dio_name = "Portland in Oregon"
+					if parsed_dio[1] == "OR":
+						dio_name = "Portland in Oregon"
+					else:
+						dio_name = "Portland"
 				if dio_name == "St. Paul-Minneapolis":
 					dio_name = "St. Paul and Minneapolis"
 				if dio_name == "Springfield":
@@ -145,7 +148,7 @@ class Command(BaseCommand):
 					priest = Priest (first_name = first, middle_name = middle, last_name = last, \
 									year_ordained = year_ordained, notes = notes, \
 									archdiocese = arch_obj, clergy_type = clergy_type)
-				if priest and False:
+				if priest:
 					print ("Save "+priest+" "+priest.clergy_type)
 					count += 1
 					priest.save()

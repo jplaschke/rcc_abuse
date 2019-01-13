@@ -5,26 +5,24 @@
   <h3>Accused priest list for Archdiocese of {{ archdiocese.name }}</h3>
   {% if archdiocese %}
 	<p>Priest count: {{ archdiocese.total_arch_priests }}
-	<div class="table">
-		<div class="table-header">
-			<div class="header__item"><a id="last_name" class="filter__link" href="#">Last Name</a></div>
-			<div class="header__item"><a id="first_name" class="filter__link filter__link--number" href="#">First Name</a></div>
-			<div class="header__item"><a id="middle_name" class="filter__link filter__link--number" href="#">Middle Name</a></div>
-			<div class="header__item"><a id="year_ordained" class="filter__link filter__link--number" href="#">Ordained</a></div>
-		</div>
-		<div class="table-content">	
+	<table id="diocese" class="sortable" style="width: 100%">
+		<tr class="table-header">
+			<th class="header__item">Last Name</th>
+			<th class="header__item">First Name</th>
+			<th class="header__item">Middle Name</th>
+			<th class="header__item">Ordained</th>
+		</tr>
       
     {% for priest in archdiocese.priest_list %}
-			<div class="table-row">	
-				<div class="table-data">{{ priest.last_name }}</a></div>
-                <div class="table-data">{{ priest.first_name }}</div>
-                <div class="table-data">{{ priest.middle_name }}</div>
-                <div class="table-data">{{ priest.year_ordained }}</div>
-             </div>
+			<tr class="table-row">	
+				<td class="table-data">{{ priest.last_name }}</td>
+                <td class="table-data">{{ priest.first_name }}</td>
+                <td class="table-data">{{ priest.middle_name }}</td>
+                <td class="table-data">{{ priest.year_ordained }}</td>
+             </tr>
     {% endfor %}
    
-        </div>
-    </div>
+    </table>
 {% else %}
     <p>No priest info is available.</p>
 {% endif %}
