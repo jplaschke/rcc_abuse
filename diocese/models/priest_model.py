@@ -49,7 +49,10 @@ class Priest(models.Model):
         'Order',
         blank=True,null=True,
         on_delete=models.CASCADE,
-    )    
+    )  
+    class Meta:
+        unique_together = ('first_name', 'middle_name', 'last_name', 'year_ordained')
+
     def __str__(self):
         return self.first_name+" "+self.middle_name+" "+self.last_name
 
@@ -108,6 +111,13 @@ class PriestTable(tables.Table):
         sequence = ('last_name','first_name','middle_name',)
         exclude = ('id','year_born','order_name','order_priest','offender','order','clergy_type')
 
+
+class NunTable(tables.Table):  
+    class Meta:
+        model = Priest
+        template_name = 'django_tables2/bootstrap.html'
+        sequence = ('last_name','first_name','middle_name',)
+        exclude = ('id','year_born','order_name','order_priest','offender','clergy_type')
 
 class OrderPriestTable(tables.Table):  
     class Meta:

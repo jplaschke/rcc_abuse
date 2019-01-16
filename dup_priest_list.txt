@@ -1,0 +1,1635 @@
+deleting dup: <QuerySet [<Priest: Alexander Dario Agudelo Cano>, <Priest: Alexander Dario Agudelo Cano>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Francis (Scotty) Allen>, <Priest: Francis (Scotty) Allen>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Leo  Allyson>, <Priest: Leo  Allyson>, <Priest: Leo  Allyson>, <Priest: Leo  Allyson>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: William Norbert Bischoff>, <Priest: William Norbert Bischoff>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Paul J Archambault>, <Priest: Paul J Archambault>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Melvin  Bucher>, <Priest: Melvin  Bucher>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: William B Cahill>, <Priest: William B Cahill>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Francis W Callan>, <Priest: Francis W Callan>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Louis  Charvet>, <Priest: Louis  Charvet>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Emanuel W Clark>, <Priest: Emanuel W Clark>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas E Connolly>, <Priest: Thomas E Connolly>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Jerry  Bals>, <Priest: Jerry  Bals>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Michael G Barletta>, <Priest: Michael G Barletta>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Gerald  Beauregard>, <Priest: Gerald  Beauregard>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Pat  Beans, Sr.>, <Priest: Pat  Beans, Sr.>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Gerald  Dezurick>, <Priest: Gerald  Dezurick>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Martin M Donnelly>, <Priest: Martin M Donnelly>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joseph C Dooley>, <Priest: Joseph C Dooley>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Dominique  Doyon>, <Priest: Dominique  Doyon>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Francis  Duffy>, <Priest: Francis  Duffy>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Louis Philippe Fiset>, <Priest: Louis Philippe Fiset>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Francis J Ford>, <Priest: Francis J Ford>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Clement  Frank>, <Priest: Clement  Frank>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: George A Berthiaume>, <Priest: George A Berthiaume>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Paul L Gauvin>, <Priest: Paul L Gauvin>]>
+order1 = True
+order2 = False
+type1 = 'B'
+type2 = 'B'
+deleting dup: <QuerySet [<Priest: Albert J Blanchard>, <Priest: Albert J Blanchard>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Lawrence M Halsey>, <Priest: Lawrence M Halsey>]>
+order1 = True
+order2 = False
+type1 = 'B'
+type2 = 'B'
+deleting dup: <QuerySet [<Priest: Ernest Justin Hill>, <Priest: Ernest Justin Hill>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James P Hurley>, <Priest: James P Hurley>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Jose  Jaime>, <Priest: Jose  Jaime>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John J Bonzagni>, <Priest: John J Bonzagni>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Paul T Boudreau>, <Priest: Paul T Boudreau>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Gordon L Keys>, <Priest: Gordon L Keys>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Leonard A Kohlman>, <Priest: Leonard A Kohlman>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Egon  Mallman>, <Priest: Egon  Mallman>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Shawn  McEnany>, <Priest: Shawn  McEnany>]>
+order1 = True
+order2 = False
+type1 = 'B'
+type2 = 'B'
+deleting dup: <QuerySet [<Priest: James P McSorley>, <Priest: James P McSorley>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Marcin  Burek>, <Priest: Marcin  Burek>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: William T Nash>, <Priest: William T Nash>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Patrick  O'Reilly>, <Priest: Patrick  O'Reilly>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Alvin L Campbell>, <Priest: Alvin L Campbell>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Richard  Pauson>, <Priest: Richard  Pauson>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Albert  Pellerin>, <Priest: Albert  Pellerin>]>
+order1 = True
+order2 = False
+type1 = 'B'
+type2 = 'B'
+deleting dup: <QuerySet [<Priest: Sylvester  Penna>, <Priest: Sylvester  Penna>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Eugene E Pierre>, <Priest: Eugene E Pierre>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Claude  Riffel>, <Priest: Claude  Riffel>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Remy  Rudin>, <Priest: Remy  Rudin>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Edmund K Ryan>, <Priest: Edmund K Ryan>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John  Schwartz>, <Priest: John  Schwartz>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Vincent  Scott>, <Priest: Vincent  Scott>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joseph D Cernich>, <Priest: Joseph D Cernich>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Theodore J St. Hilaire>, <Priest: Theodore J St. Hilaire>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Pacome ""Jocelyn"" St. Arnaud>, <Priest: Pacome ""Jocelyn"" St. Arnaud>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John R Thatcher>, <Priest: John R Thatcher>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Armand "Bro Thibault>, <Priest: Armand "Bro Thibault>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Ronaldo  Chavez>, <Priest: Ronaldo  Chavez>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Emmerich  Vogt>, <Priest: Emmerich  Vogt>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Cosmas  White>, <Priest: Cosmas  White>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Leo  Allyson>, <Priest: Leo  Allyson>, <Priest: Leo  Allyson>, <Priest: Leo  Allyson>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Alexander Dario Agudelo Cano>, <Priest: Alexander Dario Agudelo Cano>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Francis (Scotty) Allen>, <Priest: Francis (Scotty) Allen>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Eugene E Costa>, <Priest: Eugene E Costa>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Richard  O'Hearn>, <Priest: Richard  O'Hearn>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Narcisco Marquez Custodio>, <Priest: Narcisco Marquez Custodio>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Jerry  Bals>, <Priest: Jerry  Bals>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Rosendo F Dacal>, <Priest: Rosendo F Dacal>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Ron  DeChant>, <Priest: Ron  DeChant>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Michael G Barletta>, <Priest: Michael G Barletta>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Garrett Neal Dee>, <Priest: Garrett Neal Dee>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Robert "Bud" DeGrand>, <Priest: Robert "Bud" DeGrand>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Alexander (Alejandro) Delgado>, <Priest: Alexander (Alejandro) Delgado>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Pat  Beans, Sr.>, <Priest: Pat  Beans, Sr.>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Richard L Howard>, <Priest: Richard L Howard>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Donald A Desilets>, <Priest: Donald A Desilets>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Michael H Devlin>, <Priest: Michael H Devlin>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Russel  Detwiler>, <Priest: Russel  Detwiler>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Frederick G Dion>, <Priest: Frederick G Dion>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Robert  Dodd>, <Priest: Robert  Dodd>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Bernard L Doheny>, <Priest: Bernard L Doheny>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Donald V Dube>, <Priest: Donald V Dube>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas L Dupre (Bp.)>, <Priest: Thomas L Dupre (Bp.)>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: David M Farland>, <Priest: David M Farland>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joseph Clarence Forand>, <Priest: Joseph Clarence Forand>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Ernest  Formichelli>, <Priest: Ernest  Formichelli>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Laurence  Gagnon>, <Priest: Laurence  Gagnon>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Angel  Garcia>, <Priest: Angel  Garcia>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Oscar  Gatineau>, <Priest: Oscar  Gatineau>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Marcin  Burek>, <Priest: Marcin  Burek>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James Ronald Gonsalves>, <Priest: James Ronald Gonsalves>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Ronald  Gonzalez>, <Priest: Ronald  Gonzalez>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Ronaldo  Chavez>, <Priest: Ronaldo  Chavez>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Alfred C Graves>, <Priest: Alfred C Graves>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Daniel J Collins>, <Priest: Daniel J Collins>, <Priest: Daniel J Collins>, <Priest: Daniel J Collins>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Carlos  Guzman>, <Priest: Carlos  Guzman>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Jessie or Guerrero>, <Priest: Jessie or Guerrero>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Donald  Hackman>, <Priest: Donald  Hackman>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joseph  Havey>, <Priest: Joseph  Havey>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Gabriel  Hernandez>, <Priest: Gabriel  Hernandez>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Narcisco Marquez Custodio>, <Priest: Narcisco Marquez Custodio>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Rosendo F Dacal>, <Priest: Rosendo F Dacal>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Ron  DeChant>, <Priest: Ron  DeChant>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Robert (Rapelyea) Howell>, <Priest: Robert (Rapelyea) Howell>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Philip A Hower>, <Priest: Philip A Hower>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Edward  Huckemeyer>, <Priest: Edward  Huckemeyer>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Ernest Karl Huller>, <Priest: Ernest Karl Huller>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Alexander (Alejandro) Delgado>, <Priest: Alexander (Alejandro) Delgado>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Joseph Roy Jenness>, <Priest: Joseph Roy Jenness>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Vernon  Kelly>, <Priest: Vernon  Kelly>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Dennis Raymond Jost>, <Priest: Dennis Raymond Jost>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Russel  Detwiler>, <Priest: Russel  Detwiler>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Edward M Kennedy>, <Priest: Edward M Kennedy>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John A Koonz>, <Priest: John A Koonz>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Kevin  Labuda>, <Priest: Kevin  Labuda>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Joseph  Lake, Sr.>, <Priest: Joseph  Lake, Sr.>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Francis P Lavelle>, <Priest: Francis P Lavelle>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Richard R Lavigne>, <Priest: Richard R Lavigne>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Timothy J Leary>, <Priest: Timothy J Leary>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas M Lemmon>, <Priest: Thomas M Lemmon>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Ernest  Formichelli>, <Priest: Ernest  Formichelli>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Robert  Logue>, <Priest: Robert  Logue>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Laurence  Gagnon>, <Priest: Laurence  Gagnon>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Ronald  Malboeuf>, <Priest: Ronald  Malboeuf>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James A Martone>, <Priest: James A Martone>, <Priest: James A Martone>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Angel  Garcia>, <Priest: Angel  Garcia>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Thomas  McCarthy>, <Priest: Thomas  McCarthy>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas C McConnell>, <Priest: Thomas C McConnell>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: James Ronald Gonsalves>, <Priest: James Ronald Gonsalves>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: John D McNamara>, <Priest: John D McNamara>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Ronald  Gonzalez>, <Priest: Ronald  Gonzalez>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Richard F Meehan>, <Priest: Richard F Meehan>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James P Menge>, <Priest: James P Menge>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: David  Meyer>, <Priest: David  Meyer>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Jessie or Guerrero>, <Priest: Jessie or Guerrero>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Ray  Miranda>, <Priest: Ray  Miranda>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Leonardo  Montoya>, <Priest: Leonardo  Montoya>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Carlos  Guzman>, <Priest: Carlos  Guzman>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Donald  Hackman>, <Priest: Donald  Hackman>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Richard  Niebrugge>, <Priest: Richard  Niebrugge>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Gabriel  Hernandez>, <Priest: Gabriel  Hernandez>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Frank J O'Hara>, <Priest: Frank J O'Hara>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas J O'Connor>, <Priest: Thomas J O'Connor>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas F O'Malley>, <Priest: Thomas F O'Malley>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Richard L Howard>, <Priest: Richard L Howard>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Robert (Rapelyea) Howell>, <Priest: Robert (Rapelyea) Howell>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Philip A Hower>, <Priest: Philip A Hower>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Edward  Huckemeyer>, <Priest: Edward  Huckemeyer>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Maxwell "Ron" Pelton>, <Priest: Maxwell "Ron" Pelton>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Dennis Raymond Jost>, <Priest: Dennis Raymond Jost>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Kevin  Labuda>, <Priest: Kevin  Labuda>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Joseph  Lake, Sr.>, <Priest: Joseph  Lake, Sr.>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Thomas M Lemmon>, <Priest: Thomas M Lemmon>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Michael  Sabotor>, <Priest: Michael  Sabotor>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Robert  Logue>, <Priest: Robert  Logue>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: John R Russell>, <Priest: John R Russell>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Daniel  Ryan (Bp).>, <Priest: Daniel  Ryan (Bp).>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James  Rush>, <Priest: James  Rush>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Cesar  Salazar>, <Priest: Cesar  Salazar>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Edward J Sadowski, Jr.>, <Priest: Edward J Sadowski, Jr.>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: John  Scanlon>, <Priest: John  Scanlon>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Louis  Schlangen>, <Priest: Louis  Schlangen>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Byron Wayne Schoolcraft>, <Priest: Byron Wayne Schoolcraft>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Bryan  Schlager>, <Priest: Bryan  Schlager>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: James A Martone>, <Priest: James A Martone>, <Priest: James A Martone>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Charles Joseph Sgueglia>, <Priest: Charles Joseph Sgueglia>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas C McConnell>, <Priest: Thomas C McConnell>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Glen  Shrimplin>, <Priest: Glen  Shrimplin>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: James A Sipitkowski>, <Priest: James A Sipitkowski>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: David  Meyer>, <Priest: David  Meyer>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Ray  Miranda>, <Priest: Ray  Miranda>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Leonardo  Montoya>, <Priest: Leonardo  Montoya>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Phillip G Speers>, <Priest: Phillip G Speers>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Alan  Storey>, <Priest: Alan  Storey>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Charles J Sullivan>, <Priest: Charles J Sullivan>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Francis  Theis>, <Priest: Francis  Theis>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Carl  Todaro>, <Priest: Carl  Todaro>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: John "Jack" Tome>, <Priest: John "Jack" Tome>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: J. Michael Tynan>, <Priest: J. Michael Tynan>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Maxwell "Ron" Pelton>, <Priest: Maxwell "Ron" Pelton>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Morris Dale Vanderford>, <Priest: Morris Dale Vanderford>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: James  Vecera>, <Priest: James  Vecera>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: James T Walsh>, <Priest: James T Walsh>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Ronald E Wamsher>, <Priest: Ronald E Wamsher>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Walter M Weerts>, <Priest: Walter M Weerts>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Michael Willard Weber>, <Priest: Michael Willard Weber>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Wynn  Webster>, <Priest: Wynn  Webster>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: David P Welch>, <Priest: David P Welch>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Christopher J Weldon (Bp)>, <Priest: Christopher J Weldon (Bp)>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Frank D Westhoff>, <Priest: Frank D Westhoff>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Stanislaus  Yunker>, <Priest: Stanislaus  Yunker>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James  Rush>, <Priest: James  Rush>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Edward J Sadowski, Jr.>, <Priest: Edward J Sadowski, Jr.>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Cesar  Salazar>, <Priest: Cesar  Salazar>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Bryan  Schlager>, <Priest: Bryan  Schlager>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Byron Wayne Schoolcraft>, <Priest: Byron Wayne Schoolcraft>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Glen  Shrimplin>, <Priest: Glen  Shrimplin>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Phillip G Speers>, <Priest: Phillip G Speers>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: Alan  Storey>, <Priest: Alan  Storey>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Francis  Theis>, <Priest: Francis  Theis>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Carl  Todaro>, <Priest: Carl  Todaro>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: John, Jr Tokarick>, <Priest: John, Jr Tokarick>]>
+order1 = False
+order2 = False
+type1 = 'S'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John "Jack" Tome>, <Priest: John "Jack" Tome>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'S'
+deleting dup: <QuerySet [<Priest: J. Michael Tynan>, <Priest: J. Michael Tynan>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Morris Dale Vanderford>, <Priest: Morris Dale Vanderford>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: James  Vecera>, <Priest: James  Vecera>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Michael Willard Weber>, <Priest: Michael Willard Weber>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Wynn  Webster>, <Priest: Wynn  Webster>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Joel A Wright>, <Priest: Joel A Wright>]>
+order1 = False
+order2 = False
+type1 = 'S'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Leo  Allyson>, <Priest: Leo  Allyson>, <Priest: Leo  Allyson>, <Priest: Leo  Allyson>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Daniel J Collins>, <Priest: Daniel J Collins>, <Priest: Daniel J Collins>, <Priest: Daniel J Collins>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: George A Berthiaume>, <Priest: George A Berthiaume>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John J Bonzagni>, <Priest: John J Bonzagni>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Paul T Boudreau>, <Priest: Paul T Boudreau>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Alvin L Campbell>, <Priest: Alvin L Campbell>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joseph D Cernich>, <Priest: Joseph D Cernich>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Eugene E Costa>, <Priest: Eugene E Costa>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Garrett Neal Dee>, <Priest: Garrett Neal Dee>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Robert "Bud" DeGrand>, <Priest: Robert "Bud" DeGrand>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Donald A Desilets>, <Priest: Donald A Desilets>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Michael H Devlin>, <Priest: Michael H Devlin>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Frederick G Dion>, <Priest: Frederick G Dion>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Robert  Dodd>, <Priest: Robert  Dodd>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Bernard L Doheny>, <Priest: Bernard L Doheny>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Gerald  Beauregard>, <Priest: Gerald  Beauregard>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Albert J Blanchard>, <Priest: Albert J Blanchard>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joseph Clarence Forand>, <Priest: Joseph Clarence Forand>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Oscar  Gatineau>, <Priest: Oscar  Gatineau>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Alfred C Graves>, <Priest: Alfred C Graves>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joseph  Havey>, <Priest: Joseph  Havey>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joseph Roy Jenness>, <Priest: Joseph Roy Jenness>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Vernon  Kelly>, <Priest: Vernon  Kelly>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Edward M Kennedy>, <Priest: Edward M Kennedy>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Francis P Lavelle>, <Priest: Francis P Lavelle>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Richard R Lavigne>, <Priest: Richard R Lavigne>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Timothy J Leary>, <Priest: Timothy J Leary>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Ronald  Malboeuf>, <Priest: Ronald  Malboeuf>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: David M Farland>, <Priest: David M Farland>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John A Koonz>, <Priest: John A Koonz>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John D McNamara>, <Priest: John D McNamara>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James P Menge>, <Priest: James P Menge>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Richard  Niebrugge>, <Priest: Richard  Niebrugge>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas J O'Connor>, <Priest: Thomas J O'Connor>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Frank J O'Hara>, <Priest: Frank J O'Hara>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Richard  O'Hearn>, <Priest: Richard  O'Hearn>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas F O'Malley>, <Priest: Thomas F O'Malley>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John R Russell>, <Priest: John R Russell>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Daniel  Ryan (Bp).>, <Priest: Daniel  Ryan (Bp).>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Michael  Sabotor>, <Priest: Michael  Sabotor>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John  Scanlon>, <Priest: John  Scanlon>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Louis  Schlangen>, <Priest: Louis  Schlangen>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Charles Joseph Sgueglia>, <Priest: Charles Joseph Sgueglia>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James A Sipitkowski>, <Priest: James A Sipitkowski>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Charles J Sullivan>, <Priest: Charles J Sullivan>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James T Walsh>, <Priest: James T Walsh>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Ronald E Wamsher>, <Priest: Ronald E Wamsher>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Walter M Weerts>, <Priest: Walter M Weerts>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Ernest Karl Huller>, <Priest: Ernest Karl Huller>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Frank D Westhoff>, <Priest: Frank D Westhoff>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Stanislaus  Yunker>, <Priest: Stanislaus  Yunker>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Paul J Archambault>, <Priest: Paul J Archambault>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas  McCarthy>, <Priest: Thomas  McCarthy>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Daniel J Collins>, <Priest: Daniel J Collins>, <Priest: Daniel J Collins>, <Priest: Daniel J Collins>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Richard F Meehan>, <Priest: Richard F Meehan>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Donald V Dube>, <Priest: Donald V Dube>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas L Dupre (Bp.)>, <Priest: Thomas L Dupre (Bp.)>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Aaron  Ramirez>, <Priest: Aaron  Ramirez>]>
+order1 = False
+order2 = False
+type1 = 'D'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John  Harrington>, <Priest: John  Harrington>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Christopher J Weldon (Bp)>, <Priest: Christopher J Weldon (Bp)>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James A Martone>, <Priest: James A Martone>, <Priest: James A Martone>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'D'
+deleting dup: <QuerySet [<Priest: Aaron  Ramirez>, <Priest: Aaron  Ramirez>]>
+order1 = False
+order2 = False
+type1 = 'D'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John, Jr Tokarick>, <Priest: John, Jr Tokarick>]>
+order1 = False
+order2 = False
+type1 = 'S'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Jose  Jaime>, <Priest: Jose  Jaime>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: David P Welch>, <Priest: David P Welch>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joel A Wright>, <Priest: Joel A Wright>]>
+order1 = False
+order2 = False
+type1 = 'S'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Gerald  Dezurick>, <Priest: Gerald  Dezurick>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Dominique  Doyon>, <Priest: Dominique  Doyon>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Francis  Duffy>, <Priest: Francis  Duffy>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Louis Philippe Fiset>, <Priest: Louis Philippe Fiset>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Francis J Ford>, <Priest: Francis J Ford>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Clement  Frank>, <Priest: Clement  Frank>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Paul L Gauvin>, <Priest: Paul L Gauvin>]>
+order1 = True
+order2 = False
+type1 = 'B'
+type2 = 'B'
+deleting dup: <QuerySet [<Priest: Lawrence M Halsey>, <Priest: Lawrence M Halsey>]>
+order1 = True
+order2 = False
+type1 = 'B'
+type2 = 'B'
+deleting dup: <QuerySet [<Priest: William B Cahill>, <Priest: William B Cahill>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Louis  Charvet>, <Priest: Louis  Charvet>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Emanuel W Clark>, <Priest: Emanuel W Clark>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Thomas E Connolly>, <Priest: Thomas E Connolly>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Martin M Donnelly>, <Priest: Martin M Donnelly>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Joseph C Dooley>, <Priest: Joseph C Dooley>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James P McSorley>, <Priest: James P McSorley>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: William T Nash>, <Priest: William T Nash>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Patrick  O'Reilly>, <Priest: Patrick  O'Reilly>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Richard  Pauson>, <Priest: Richard  Pauson>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Albert  Pellerin>, <Priest: Albert  Pellerin>]>
+order1 = True
+order2 = False
+type1 = 'B'
+type2 = 'B'
+deleting dup: <QuerySet [<Priest: Eugene E Pierre>, <Priest: Eugene E Pierre>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Claude  Riffel>, <Priest: Claude  Riffel>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Edmund K Ryan>, <Priest: Edmund K Ryan>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John  Schwartz>, <Priest: John  Schwartz>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Leonard A Kohlman>, <Priest: Leonard A Kohlman>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Shawn  McEnany>, <Priest: Shawn  McEnany>]>
+order1 = True
+order2 = False
+type1 = 'B'
+type2 = 'B'
+deleting dup: <QuerySet [<Priest: Sylvester  Penna>, <Priest: Sylvester  Penna>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Remy  Rudin>, <Priest: Remy  Rudin>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Armand "Bro Thibault>, <Priest: Armand "Bro Thibault>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Cosmas  White>, <Priest: Cosmas  White>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: William Norbert Bischoff>, <Priest: William Norbert Bischoff>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Melvin  Bucher>, <Priest: Melvin  Bucher>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Francis W Callan>, <Priest: Francis W Callan>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Ernest Justin Hill>, <Priest: Ernest Justin Hill>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: James P Hurley>, <Priest: James P Hurley>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Gordon L Keys>, <Priest: Gordon L Keys>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Vincent  Scott>, <Priest: Vincent  Scott>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Pacome ""Jocelyn"" St. Arnaud>, <Priest: Pacome ""Jocelyn"" St. Arnaud>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John R Thatcher>, <Priest: John R Thatcher>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Emmerich  Vogt>, <Priest: Emmerich  Vogt>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Egon  Mallman>, <Priest: Egon  Mallman>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Theodore J St. Hilaire>, <Priest: Theodore J St. Hilaire>]>
+order1 = True
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Leo  Allyson>, <Priest: Leo  Allyson>, <Priest: Leo  Allyson>, <Priest: Leo  Allyson>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>, <Priest: Hermy Dave Ceniza>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Daniel J Collins>, <Priest: Daniel J Collins>, <Priest: Daniel J Collins>, <Priest: Daniel J Collins>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>, <Priest: Hector  Coria Gonzales>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'
+deleting dup: <QuerySet [<Priest: John  Harrington>, <Priest: John  Harrington>]>
+order1 = False
+order2 = False
+type1 = 'P'
+type2 = 'P'

@@ -1,0 +1,184 @@
+***** PRIEST NOT ADDED 'Alexis-du-Sacre-Coeur'
+***** PRIEST NOT ADDED 'Altstock / Alstock'
+***** PRIEST NOT ADDED 'Arata'
+***** PRIEST NOT ADDED 'Audibert'
+***** PRIEST NOT ADDED 'Baccellieri'
+***** PRIEST NOT ADDED 'Beaudet'
+***** PRIEST NOT ADDED 'Berube'
+***** PRIEST NOT ADDED 'Bigelin'
+last_name Bischoff diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Boivin'
+***** PRIEST NOT ADDED 'Boltz'
+***** PRIEST NOT ADDED 'Brazauskas'
+***** PRIEST NOT ADDED 'Brennan'
+last_name Bucher diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name Cahill diocese_file ['Portland', ' ME\n'] arcdiocese None dio Portland
+SAVE PRIEST
+last_name Callan diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Caron'
+***** PRIEST NOT ADDED 'Carrier'
+***** PRIEST NOT ADDED 'Carrigan'
+last_name Charvet diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name Clark diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name Connolly diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Corbeil'
+***** PRIEST NOT ADDED 'Coughlin'
+***** PRIEST NOT ADDED 'Creel'
+***** PRIEST NOT ADDED 'Crete'
+***** PRIEST NOT ADDED 'Crozier'
+***** PRIEST NOT ADDED 'Curran'
+***** PRIEST NOT ADDED 'Cyr'
+***** PRIEST NOT ADDED 'Davis'
+***** PRIEST NOT ADDED 'Delaney'
+last_name Dezurick diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Doherty'
+last_name Donnelly diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name Dooley diocese_file ['Portland', ' ME\n'] arcdiocese None dio Portland
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Doucette'
+last_name Doyon diocese_file ['Portland', ' ME\n'] arcdiocese None dio Portland
+SAVE PRIEST
+last_name Duffy diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Durand'
+***** PRIEST NOT ADDED 'Eucharistica'
+last_name Fiset diocese_file ['Portland', ' ME\n'] arcdiocese None dio Portland
+SAVE PRIEST
+last_name Ford diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name Frank diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Freddrick'
+***** PRIEST NOT ADDED 'Frolick'
+last_name Gauvin diocese_file ['Portland', ' ME\n'] arcdiocese None dio Portland
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Ghilardi'
+***** PRIEST NOT ADDED 'Girardin'
+***** PRIEST NOT ADDED 'Gonzalez Rios'
+***** PRIEST NOT ADDED 'Goodrich'
+***** PRIEST NOT ADDED 'Gorham'
+***** PRIEST NOT ADDED 'Grammond'
+***** PRIEST NOT ADDED 'Guzman-Chavez'
+***** PRIEST NOT ADDED 'Hallee'
+last_name Halsey diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Hamilton'
+***** PRIEST NOT ADDED 'Hansen'
+last_name Harrington diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Harris'
+***** PRIEST NOT ADDED 'Harris'
+***** PRIEST NOT ADDED 'Henderson'
+last_name Hill diocese_file ['Portland', ' ME\n'] arcdiocese None dio Portland
+SAVE PRIEST
+last_name Hurley diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Jacobson'
+***** PRIEST NOT ADDED 'Jacques'
+last_name Jaime diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Kane'
+***** PRIEST NOT ADDED 'Karath'
+last_name Keys diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Kiernan'
+last_name Kohlman diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Laplante'
+***** PRIEST NOT ADDED 'Larkin'
+***** PRIEST NOT ADDED 'Laughlin'
+***** PRIEST NOT ADDED 'Lauzon'
+***** PRIEST NOT ADDED 'Lee'
+***** PRIEST NOT ADDED 'Luke'
+***** PRIEST NOT ADDED 'MacNaughton'
+last_name Mallman diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Mandeville'
+***** PRIEST NOT ADDED 'Marie'
+***** PRIEST NOT ADDED 'Mary Anne'
+***** PRIEST NOT ADDED 'McCarthy'
+***** PRIEST NOT ADDED 'McCray'
+***** PRIEST NOT ADDED 'McDowell'
+last_name McEnany diocese_file ['Portland', ' ME\n'] arcdiocese None dio Portland
+SAVE PRIEST
+***** PRIEST NOT ADDED 'McGowan'
+***** PRIEST NOT ADDED 'McKean'
+***** PRIEST NOT ADDED 'McKeone'
+***** PRIEST NOT ADDED 'McLeod'
+last_name McSorley diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Melville'
+***** PRIEST NOT ADDED 'Michaud'
+***** PRIEST NOT ADDED 'Michele'
+***** PRIEST NOT ADDED 'Minh'
+last_name Nash diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED "O'Doherty"
+***** PRIEST NOT ADDED "O'Flynn"
+last_name O'Reilly diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Orso-Manzonetta'
+***** PRIEST NOT ADDED 'Ouellette'
+***** PRIEST NOT ADDED 'Patrick'
+last_name Pauson diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name Pellerin diocese_file ['Portland', ' ME\n'] arcdiocese None dio Portland
+SAVE PRIEST
+last_name Penna diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Perez'
+***** PRIEST NOT ADDED 'Perone'
+last_name Pierre diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Plocinski'
+***** PRIEST NOT ADDED 'Plourde'
+***** PRIEST NOT ADDED 'Price'
+***** PRIEST NOT ADDED 'Raleigh'
+***** PRIEST NOT ADDED 'Raleigh'
+last_name Riffel diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Robitaille'
+***** PRIEST NOT ADDED 'Rodakowski'
+***** PRIEST NOT ADDED 'Romani'
+***** PRIEST NOT ADDED 'Roy'
+last_name Rudin diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name Ryan diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Sabatino'
+last_name Schwartz diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name Scott diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Senko'
+***** PRIEST NOT ADDED 'Shorty'
+***** PRIEST NOT ADDED 'Smith'
+***** PRIEST NOT ADDED 'Sprauer'
+last_name St. Arnaud diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name St. Hilaire diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Steigerwald'
+***** PRIEST NOT ADDED 'Sullivan'
+***** PRIEST NOT ADDED 'Susbauer'
+last_name Thatcher diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+last_name Thibault diocese_file ['Portland', ' ME\n'] arcdiocese None dio Portland
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Thielen'
+***** PRIEST NOT ADDED 'Unnamed'
+***** PRIEST NOT ADDED 'Unnamed'
+***** PRIEST NOT ADDED 'Vallely'
+last_name Vogt diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST
+***** PRIEST NOT ADDED 'Wachter'
+last_name White diocese_file ['Portland', ' OR\n'] arcdiocese Portland in Oregon dio None
+SAVE PRIEST

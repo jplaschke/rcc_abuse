@@ -5,7 +5,7 @@ from django_tables2 import RequestConfig
 
 from diocese.models.diocese_model import Archdiocese
 from diocese.models.diocese_model import Diocese
-from diocese.models.priest_model import Priest, PriestTable, OrderPriestTable
+from diocese.models.priest_model import Priest, PriestTable, NunTable, OrderPriestTable
 from diocese.models.order_model import Order
 import string
 
@@ -54,7 +54,7 @@ def priest(request):
 
 
 def nun(request):
-    table = PriestTable(Priest.objects.all().filter(clergy_type="N"))
+    table = NunTable(Priest.objects.all().filter(clergy_type="N"))
     RequestConfig(request).configure(table)
     return render(request, 'diocese/nun_list.html', {'table': table})
 
