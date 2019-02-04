@@ -1,0 +1,35 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Catholic Child Sexual Abuse (CCSA) Analytics</h1>
+  <h3>Information for {{ firstname }} {{ middlename }} {{ lastname }}</h3>
+  {% if assignments %}
+	<p>Assignment list:</p>
+ 	<table id="diocese" class="sortable" style="width: 100%">
+		<tr class="table-header">
+			<th class="header__item filter__link">Start Year</th>
+			<th class="header__item filter__link">End Year</th>
+			<th class="header__item filter__link">Parish</th>
+			<th class="header__item filter__link">Archdiocese?</th>
+			<th class="header__item filter__link">City</th>
+			<th class="header__item filter__link">State</th>
+			<th class="header__item filter__link">Notes</th>
+		</tr>	<div class="table">
+      
+    {% for assignment in assignments %}
+			<tr class="table-row">		
+				<td class="table-data">{{ assignment.start_year }}</td>
+                <td class="table-data">{{ assignment.end_year }}</td>
+                <td class="table-data">{{ assignment.parish_name }}</td>
+                <td class="table-data">{{ assignment.archdiocese }}</td>
+                <td class="table-data">{{ assignment.parish_city }}</td>
+                <td class="table-data">{{ assignment.parish_state }}</td>
+                <td class="table-data">{{ assignment.notes }}</td>
+             </tr>
+    {% endfor %}
+   
+    </table>
+{% else %}
+    <p>No Assignment info is available.</p>
+{% endif %}
+{% endblock %}

@@ -3,6 +3,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
+    #path('priestdetail/<str:firstname>/<str:middlename>/<str:lastname>/<str:ordainyear>',views.priestdetail,name="priestdetail"),
+    path('priestdetail/<int:id>',views.priest_detail,name="priest_detail"),
     path('priestlist/<int:pk>/', views.DioPriestListView.as_view(), name='diocesepriestlist'),
     path('archpriestlist/<int:pk>/', views.ArchPriestListView.as_view(), name='archdiocesepriestlist'),
     path('orderpriestlist/<int:pk>/', views.OrderPriestListView.as_view(), name='orderdiocesepriestlist'),
